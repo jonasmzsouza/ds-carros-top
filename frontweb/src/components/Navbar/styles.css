@@ -1,0 +1,37 @@
+.main-nav {
+  min-height: 70px;
+}
+
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #00285F
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("../../assets/images/hamburguer.svg");
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
+}
+
+.navbar-dark .navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 170px;
+  justify-content: space-between;
+}
+
+.main-menu a {
+  color: #00285F;
+}
+
+.main-menu a:hover,
+.main-menu a.active {
+  font-weight: 700;
+}
