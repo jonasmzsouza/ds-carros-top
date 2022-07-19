@@ -19,3 +19,13 @@ a, a:hover {
   border-radius: 10px;
   padding: 20px;
 }
+
+button.btn-secondary {
+  width: 174px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+button.btn-secondary h6 {
+  font-size: 14px;
+}

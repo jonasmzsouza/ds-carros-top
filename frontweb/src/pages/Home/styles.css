@@ -54,15 +54,6 @@
   align-items: center;
 }
 
-.home-btn-container button {
-  width: 174px;
-  height: 40px;
-}
-
-.home-btn-container h6 {
-  font-size: 14px;
-}
-
 .home-btn-container p {
   margin: 0;
   padding-top: 10px;
