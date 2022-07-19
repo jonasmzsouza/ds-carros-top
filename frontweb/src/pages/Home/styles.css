@@ -61,6 +61,12 @@
   color: #585858;
 }
 
+.home-btn-container .btn-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
 @media (min-width: 576px) {
   .home-container {
     font-size: 36px;
