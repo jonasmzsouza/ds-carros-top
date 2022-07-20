@@ -1,5 +1,7 @@
 .home-container {
-  padding: 20px;
+  width: 100%;
+  padding: 0 0.75rem;
+  margin: 1.5rem auto;
   font-size: 20px;
   text-align: center;
 }
@@ -70,6 +72,7 @@
 @media (min-width: 576px) {
   .home-container {
     font-size: 36px;
+    max-width: 540px;
   }
 
   .home-content-container {
@@ -104,7 +107,18 @@
 
 }
 
+@media (min-width: 768px) {
+  .home-container {
+    max-width: 720px;
+  }
+}
+
+
 @media (min-width: 992px) {
+  .home-container {
+    max-width: 960px;
+  }
+
   .home-image-container img {
     width: 455px;
   }
@@ -113,7 +127,7 @@
 @media (min-width: 1200px) {
   .home-container {
     text-align: left;
-    padding: 30px 150px;
+    max-width: 1140px;
     height: 85vh;
   }
 
@@ -123,7 +137,7 @@
     padding: calc((100vh - 630px) / 2) 80px;
   }
 
-  .home-content-container  {
+  .home-content-container {
     padding: 0;
   }
 
@@ -139,7 +153,7 @@
 @media (min-width: 1400px) {
   .home-container {
     font-size: 45px;
-    padding: 30px 150px;
+    max-width: 1320px;
   }
 
   .home-content-container h1 {
